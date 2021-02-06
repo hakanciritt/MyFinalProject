@@ -1,7 +1,7 @@
 ﻿using System;
 using Business.Concrete;
 using DataAccess.Concrete.EntityFramework;
-
+using Entities.Concrete;
 
 namespace ConsoleUI
 {
@@ -10,13 +10,19 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
-
-
-            foreach (var product in productManager.GetAll())
+            foreach (var product in productManager.GetProductDetails())
             {
-                Console.WriteLine($"{product.ProductId} {product.ProductName} {product.CategoryId} " +
-                    $" {product.UnitPrice} {product.UnitsInStock}");
+                Console.WriteLine(product.ProductName + " " + product.CategoryName);
             }
+
+            //CategoryManager manager = new CategoryManager(new EfCategoryDal());
+
+            //foreach (var category in manager.GetAll())
+            //{
+            //    Console.WriteLine(category.CategoryName);
+            //}
+
+
 
             Console.Read();
         }
