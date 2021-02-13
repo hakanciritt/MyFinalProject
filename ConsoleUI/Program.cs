@@ -28,7 +28,6 @@ namespace ConsoleUI
             //}
 
 
-
             Console.Read();
         }
     }
