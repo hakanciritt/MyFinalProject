@@ -66,3 +66,9 @@ C:\Users\hakan\source\repos\MyFinalProject\WebAPI\bin\Debug\netcoreapp3.1\Core.p
 C:\Users\hakan\source\repos\MyFinalProject\WebAPI\bin\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\hakan\source\repos\MyFinalProject\WebAPI\bin\Debug\netcoreapp3.1\Entities.pdb
 C:\Users\hakan\source\repos\MyFinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
+C:\Users\hakan\source\repos\MyFinalProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\hakan\source\repos\MyFinalProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+C:\Users\hakan\source\repos\MyFinalProject\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\hakan\source\repos\MyFinalProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+C:\Users\hakan\source\repos\MyFinalProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\hakan\source\repos\MyFinalProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
