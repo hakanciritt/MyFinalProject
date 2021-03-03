@@ -7,7 +7,7 @@ using System.Text;
 namespace Core.DataAccess
 {
     //generic constraint uyguladım
-    public interface EfEntityRepositoryBase<T> where T : class, IEntity, new()
+    public interface IEntityRepository<T> where T : class, IEntity, new()
     {
         T Get(Expression<Func<T, bool>> filter);
 

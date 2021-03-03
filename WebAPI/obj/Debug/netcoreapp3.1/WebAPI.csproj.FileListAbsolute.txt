@@ -72,3 +72,4 @@ C:\Users\hakan\source\repos\MyFinalProject\WebAPI\bin\Debug\netcoreapp3.1\Castle
 C:\Users\hakan\source\repos\MyFinalProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
 C:\Users\hakan\source\repos\MyFinalProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Users\hakan\source\repos\MyFinalProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\hakan\source\repos\MyFinalProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
