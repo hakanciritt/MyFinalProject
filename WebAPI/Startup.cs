@@ -42,6 +42,7 @@ namespace WebAPI
             services.AddAutofac();
 
             services.AddControllers();
+            services.AddCors();
 
             var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
@@ -74,6 +75,7 @@ namespace WebAPI
             }
             app.UseStaticFiles();
 
+            app.UseCors(builder=>builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
             app.UseHttpsRedirection();
 
             app.UseRouting();

@@ -23,6 +23,8 @@ namespace Business.Constants
         public const string UserAlreadyExists = "Kullanıcı mevcut";
         public const string AccessTokenCreated = "Token oluşturuldu";
         public const string ProductUpdated = "Ürün güncellendi";
+
+        public const string CategoryAddedd = "Kategori eklendi";
     }
 }
 

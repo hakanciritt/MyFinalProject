@@ -90,6 +90,10 @@ namespace Business.Concrete
             _productDal.Update(product);
             return new SuccessResult(Messages.ProductUpdated);
         }
+        public IDataResult<List<Product>> GetAllByCategoryId(int categoryId)
+        {
+            return new SuccessDataResult<List<Product>>(_productDal.GetAll(x => x.CategoryId == categoryId));
+        }
         private IResult CheckIfProductCountOfCategoryCorrect(int categoryId)
         {
             var categoryCount = _productDal.GetAll(x => x.CategoryId == categoryId).Count;
@@ -118,5 +122,7 @@ namespace Business.Concrete
             }
             return new ErrorResult();
         }
+
+       
     }
 }
